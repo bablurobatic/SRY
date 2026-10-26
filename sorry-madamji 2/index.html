@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Sorry, Madam Ji ❤️ — Bablu's Apology</title>
+  <meta name="description" content="A sincere, heartfelt, and interactive apology website for Madam Ji from Bablu.">
+  
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:title" content="Sorry, Madam Ji ❤️">
+  <meta property="og:description" content="A sincere, heartfelt, and interactive apology website for Madam Ji.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/images/teddy_swing.jpg">
+  <meta name="theme-color" content="#FFE7EE">
+
+  <!-- Google Fonts: Fredoka, Baloo 2, Nunito, Caveat, Dancing Script -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Caveat:wght@600;700&family=Dancing+Script:wght@600;700&family=Fredoka:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./src/styles/theme.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+
+  <!-- React 18 Local (with CDN fallback) -->
+  <script src="./assets/vendor/react.production.min.js"></script>
+  <script src="./assets/vendor/react-dom.production.min.js"></script>
+  <script>
+    if (!window.React) {
+      document.write('<script src="https://unpkg.com/react@18/umd/react.production.min.js"><\/script>');
+      document.write('<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"><\/script>');
+    }
+  </script>
+</head>
+<body>
+  <noscript>
+    <div style="padding: 40px; text-align: center; font-family: sans-serif; background: #FFE7EE; color: #48202F;">
+      <h2>Sorry, Madam Ji ❤️</h2>
+      <p>Please enable JavaScript in your browser to experience this interactive apology.</p>
+    </div>
+  </noscript>
+
+  <div id="root"></div>
+
+  <!-- Application Bundle -->
+  <script src="./src/app.bundle.js"></script>
+</body>
+</html>
